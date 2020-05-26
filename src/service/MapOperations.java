@@ -41,7 +41,7 @@ public class MapOperations
 		return sa;
 	}
 	public Object reset(HashMap<Integer,TouristPlace> places) {
-		Map<Integer,TouristPlace> resetPlaces=new TreeMap<>();
+		Map<Integer,TouristPlace> resetPlaces=new HashMap<>();
 		resetPlaces.clear();
 		return resetPlaces;
 		
